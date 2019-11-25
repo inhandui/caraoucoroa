@@ -11,6 +11,7 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
 
     private ImageView btn_jogar;
+    private String[] opcao = {"cara", "coroa"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
